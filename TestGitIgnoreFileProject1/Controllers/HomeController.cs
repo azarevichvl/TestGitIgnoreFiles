@@ -26,5 +26,10 @@ namespace TestGitIgnoreFileProject1.Controllers
 
             return View();
         }
+
+        public ActionResult Test()
+        {
+            return RedirectToAction("Index");
+        }
     }
 }
